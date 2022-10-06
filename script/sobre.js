@@ -1,4 +1,4 @@
-async function readJson() {
+function readJson() {
     try{
 
         fetch('../data/sobre.json').then(response => {
